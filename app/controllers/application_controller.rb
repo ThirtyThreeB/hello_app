@@ -7,4 +7,5 @@ class ApplicationController < ActionController::Base
 
   def goodbye
   	render html: "later, something inappropiates!!"
+  end
 end
